@@ -1,0 +1,219 @@
+/*sheader{
+    background-color: rgb(176, 238, 247);
+    padding: 20px;
+    text-align: center;
+    font-size: 80;
+    color:white;
+    font-family: "Trirong", serif;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*stylig the header*/
+.width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto;
+}
+.navbar{
+    position: absolute;
+    width:100%;
+    padding: 30px 0;
+    /*background-color:rgb(176, 238, 247); */
+    font-family: "Ubuntu", sans-serif;
+}
+.navbar .menu li a{
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition:color 0.5s ease
+}
+.navbar .width{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .portfolio a{
+    color:white;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.navbar .portfolio h1{
+    color:white;
+}
+.navbar .portfolio h1 span{
+    color:rgb(176, 238, 247);
+}
+.navbar .menu li{
+    list-style: none;
+    display:inline-block;
+}
+.navbar .menu li a:hover{
+    color:rgb(176, 238, 247);
+} 
+ 
+/*Styling introduction*/
+.about{
+    display:flex;
+    background-color: black;
+    padding: 60px;
+}
+.about .name{
+    margin-top: 120px;
+    font-size: 50px;
+    color:white;
+    font-family: "Ubuntu",sans-serif
+}
+.about .name .identify{
+    font-size:30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color:white;
+}
+.about .profile{
+    margin-top: 120px;
+    border-radius: 50%;
+    margin-left: 200px;
+    box-shadow: 0px 0px 50px rgb(0,0,0);;
+}
+.description{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*styling th art section*/
+
+.headingArt{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.pencil{
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px rgb(0, 0, 0);
+}
+.drawings h3{
+    margin-left: 80px;
+}
+.Sketch {
+    background-color: rgb(176, 238, 247);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*stying the Stage Performances*/
+.Stage h2{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 50px;
+}
+.Stage .performances h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 35px;
+}
+.Stage .performances p{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+}
+.Stage .performances a{
+    margin-left: 696px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+}
+.Audio{
+    margin-left: 620px;
+}
+.headingGame{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.grid{
+    background-color:rgb(176, 238, 247); 
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid .item{
+    padding: 0 50px;
+}
+.grid .item:hover img{
+    opacity: 0.50;
+}
+.extra h2{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 50px;
+}
+.stunts h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 35px;
+}
+.stunts p{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+}
+.stunts a{
+    margin-left: 696px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 20px;
+}
+.cubes {
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 35px;
+}
+.cube img{
+    margin-left: 50px;
+}
+.cube{
+    display: flex;
+}
+.cubing img{
+    margin-left: 700px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px rgb(0, 0, 0);
+}
+.cube p{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: "Ubuntu",sans-serif;
+    
+}
+.pyramix h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 25px;
+}
+.pyramix video{
+    margin-left: 590px;
+}
+.chess h3{
+    text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 35px;
+}
+.chess img{
+    margin-left: 569px;
+
+}
